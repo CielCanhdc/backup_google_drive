@@ -12,7 +12,7 @@ class BaoLong:
         self.folder_name = folder_name
         self.folder_id = None
         self.backup_number = 5
-        self.upload_file_name = datetime.now().strftime("BAK_%Y_%m_%d_%H_%M_%S") + '.txt'
+        self.upload_file_name = datetime.now().strftime("BAK_%Y_%m_%d_%H_%M_%S") + '.sql'
 
         gauth = GoogleAuth()
         if "mycreds.txt" in os.listdir():
